@@ -7,8 +7,6 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-console.log('API KEY', process.env.API_KEY)
-
 module.exports = {
   plugins: [
     {
@@ -17,13 +15,12 @@ module.exports = {
         repositoryName: `lndstrm`,
         accessToken: `${process.env.API_KEY}`,
         schemas: {
-          post: require('./src/schemas/post.json'),
+          post: require("./src/schemas/post.json"),
         },
         // linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
       },
     },
     `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
-
-// module.exports = {}

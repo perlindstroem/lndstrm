@@ -3,8 +3,12 @@ import { Link } from "gatsby"
 
 export default () => {
   const links = [
+	  {
+		  name: "Reads",
+		  link: "reads"
+	  },
     {
-      name: "About",
+      name: "CV",
       link: "about",
     },
     {
