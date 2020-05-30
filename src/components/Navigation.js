@@ -15,10 +15,14 @@ export default () => {
 
   return (
     <div className="nav-bar">
-      <div className="nav-title">Per Lindström</div>
+      <div className="nav-title">
+        <Link to="/">Per Lindström</Link>
+      </div>
       <div className="nav-links">
-        {links.map((link) => (
-          <Link key={link.name} to={link.link} className="nav-link">{link.name}</Link>
+        {links.map(link => (
+          <Link key={link.name} to={link.link} activeClassName="active">
+            {link.name}
+          </Link>
         ))}
       </div>
     </div>
