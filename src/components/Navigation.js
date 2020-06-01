@@ -8,7 +8,7 @@ export default () => {
 		  link: "reads"
 	  },
     {
-      name: "CV",
+      name: "About",
       link: "about",
     },
     {

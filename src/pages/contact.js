@@ -6,7 +6,7 @@ export default () => {
     <Layout>
       <h1>Contact</h1>
       <p>
-        You can reach me at <strong>per (at) lndstrm (dot) se</strong>.
+        For any inquiries, please contact me on: <strong>per (at) lndstrm (dot) se</strong>.
       </p>
     </Layout>
   )

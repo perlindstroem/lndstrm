@@ -34,7 +34,7 @@ export default () => {
     <Layout>
       <h1>Reads</h1>
       <p>
-        A non-exhoustive list of stuff I have read and enjoyed/would recommend!
+        A non-exhaustive list of stuff I have read and enjoyed/would recommend!
       </p>
       <h2>Books</h2>
       <ul>
