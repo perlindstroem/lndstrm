@@ -10,7 +10,7 @@ export default () => {
         applications and data science.
       </p>
       <p>
-        This website is a collection of my experiences and reads that I'd like
+        This website is a collection of my experiences and other things that I'd like
         to list for my own sake and for sharing.
       </p>
     </Layout>
