@@ -2,15 +2,26 @@ import React from "react"
 import Layout from "../layout"
 
 export default () => {
+  const publications = [
+{
+  name: 'Predicting Player Trajectories in Shot Situations in Soccer',
+  link: 'https://www.researchgate.net/publication/334576325_Predicting_Player_Trajectories_in_Shot_Situations_in_Soccer'
+},
+{
+  name: 'Deep Imitation Learning on Spatio-Temporal Data with Multiple Adversarial Agents Applied on Soccer',
+  link: ''
+}
+  ] 
+
   return (
     <Layout>
       <h1>CV</h1>
       <p>
         Here's condensed list of what I've done so far.
       </p>
-      <h2>Work Experience</h2>
+      <h2>Experience</h2>
       <ul>
-        <li>Associate at Digital Edge</li>
+        <li>Associate at Digital Edge (current)</li>
         <li>Research Intern at Signality</li>
         <li>Lead Software Engineer at Skira</li>
         <li>Software Engineer at GOLI</li>
