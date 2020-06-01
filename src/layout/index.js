@@ -8,6 +8,7 @@ export default ({ children }) => {
   return (
     <div className="wrapper">
       <Helmet defer={false}>
+        <html lang="en" />
         <title>Per Lindström</title>
       </Helmet>
       <Navigation />
