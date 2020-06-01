@@ -4,7 +4,7 @@ import Layout from "../layout"
 export default () => {
   return (
     <Layout>
-      <h1>Hi there 👋</h1>
+      <h1>Hi there <span role="img" aria-label="hand wave">👋</span></h1>
       <p>
         I am Per, a software engineer enthusiastic about user oriented web
         applications and data science.
