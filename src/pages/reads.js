@@ -13,6 +13,15 @@ export default () => {
     {
       name: "Thinking, Fast and slow",
     },
+    {
+      name: "Sapiens"
+    },
+    {
+      name: "Hacking Growth"
+    },
+    {
+      name: "The Lean Startup"
+    }
   ]
 
   const articles = [
