@@ -15,8 +15,8 @@ export default () => {
     },
     {
       name: "Mapping the current state of SSL/TLS",
-      link: "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-138391"
-    }
+      link: "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-138391",
+    },
   ]
 
   return (
