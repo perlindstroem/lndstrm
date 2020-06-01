@@ -9,10 +9,10 @@ export default () => {
     {
       name: "Getting Real",
       link: "https://basecamp.com/books/getting-real",
-	},
-	{
-		name: "Thinking, Fast and slow"
-	}
+    },
+    {
+      name: "Thinking, Fast and slow",
+    },
   ]
 
   const articles = [
@@ -24,17 +24,23 @@ export default () => {
   return (
     <Layout>
       <h1>Reads</h1>
-	  <p>A non-exhoustive list of stuff I have read and enjoyed/would recommend!</p>
+      <p>
+        A non-exhoustive list of stuff I have read and enjoyed/would recommend!
+      </p>
       <h2>Books</h2>
-      {books.map(({ name, link }) => (
-        <li key={name}>{link ? <a href={link}>{name}</a> : `${name}`}</li>
-      ))}
+      <ul>
+        {books.map(({ name, link }) => (
+          <li key={name}>{link ? <a href={link}>{name}</a> : `${name}`}</li>
+        ))}
+      </ul>
       <h2>Articles</h2>
-      {articles.map(({ name, link }) => (
-        <li key={name}>
-          <a href={link}>{name}</a>
-        </li>
-      ))}
+      <ul>
+        {articles.map(({ name, link }) => (
+          <li key={name}>
+            <a href={link}>{name}</a>
+          </li>
+        ))}
+      </ul>
     </Layout>
   )
 }

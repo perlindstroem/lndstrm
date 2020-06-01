@@ -1,5 +1,35 @@
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 400;
+  src: url('../../static/fonts/SpaceGrotesk-Regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 300;
+  src: url('../../static/fonts/SpaceGrotesk-Light.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 500;
+  src: url('../../static/fonts/SpaceGrotesk-Medium.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 600;
+  src: url('../../static/fonts/SpaceGrotesk-SemiBold.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-weight: 700;
+  src: url('../../static/fonts/SpaceGrotesk-Bold.woff2') format('woff2')
+}
+
 * {
-  font-family: Helvetica, "sans-serif";
+  font-family: 'Space Grotesk', Helvetica, "sans-serif";
 }
 
 body,
@@ -60,17 +90,23 @@ html {
 }
 
 .nav-title {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.1rem;
 }
 
 h1 {
-	font-size: 2.2rem;
+  font-size: 2.2rem;
+  letter-spacing: 0.08rem;
 }
 
 h2 {
-	font-size: 1.6rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.08rem;
 	padding: .5rem 0;
+}
+
+p, a, li {
+  letter-spacing: 0.06rem;
 }
 
 li {
