@@ -9,17 +9,17 @@ require("dotenv").config({
 
 module.exports = {
   plugins: [
-    {
-      resolve: `gatsby-source-prismic`,
-      options: {
-        repositoryName: `lndstrm`,
-        accessToken: `${process.env.API_KEY}`,
-        schemas: {
-          post: require("./src/schemas/post.json"),
-        },
-        // linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-prismic`,
+    //   options: {
+    //     repositoryName: `lndstrm`,
+    //     accessToken: `${process.env.API_KEY}`,
+    //     schemas: {
+    //       post: require("./src/schemas/post.json"),
+    //     },
+    //     // linkResolver: ({ node, key, value }) => post => `/${post.uid}`,
+    //   },
+    // },
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
