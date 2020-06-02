@@ -30,7 +30,6 @@ export default ({ children }) => {
           sizes="16x16"
           href={favicon16}
         />
-        <link rel="manifest" href="/static/site.webmanifest" />
       </Helmet>
       <Navigation />
       <div className="content">{children}</div>
