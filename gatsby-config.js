@@ -32,4 +32,8 @@ module.exports = {
     `gatsby-transformer-remark`,
     "gatsby-plugin-robots-txt",
   ],
+  siteMetadata: {
+    siteUrl: `https://lndstrm.se/`,
+    description: `Per is a software engineer enthusiastic about user oriented web applications and data science.`,
+  },
 }
