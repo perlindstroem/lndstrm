@@ -30,6 +30,8 @@ export default ({ children }) => {
           sizes="16x16"
           href={favicon16}
         />
+        <meta name="description" content="My name is Per Lindström and I'm a software engineer" />
+        <meta name="author" content="Per Lindström" />
       </Helmet>
       <Navigation />
       <div className="content">{children}</div>
