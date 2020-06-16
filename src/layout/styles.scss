@@ -117,10 +117,16 @@ html {
   justify-content: space-between;
   align-items: center;
   margin: 40px 0;
+  background-color: #fff;
 
   @media (max-width: 768px) {
     margin: 5px 0;
     height: 8vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
   }
 
   a {
@@ -137,7 +143,7 @@ html {
   height: 100%;
   justify-content: flex-end;
   align-items: center;
-  
+
   @media (max-width: 768px) {
     flex-direction: column;
     position: fixed;
@@ -159,7 +165,7 @@ html {
     padding: 8px 14px;
     margin: 10px;
     border-radius: 0.3rem;
-    
+
     @media (max-width: 768px) {
       width: 80%;
       text-align: center;
@@ -221,6 +227,6 @@ li {
   margin: 2em 0;
 
   @media (max-width: 768px) {
-    margin: .5em;
+    margin: 0.5em;
   }
 }
