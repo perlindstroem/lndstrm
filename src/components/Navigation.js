@@ -2,11 +2,13 @@ import React from "react"
 import { Link } from "gatsby"
 
 export default () => {
+  const [open, setOpen] = React.useState(false)
+
   const links = [
-	  {
-		  name: "Reads",
-		  link: "reads"
-	  },
+    {
+      name: "Reads",
+      link: "reads",
+    },
     {
       name: "About",
       link: "about",
@@ -22,7 +24,16 @@ export default () => {
       <div className="nav-title">
         <Link to="/">Per Lindström</Link>
       </div>
-      <div className="nav-links">
+      <div className="nav-toggle">
+        <div
+          className={`nav-hamburger ${open ? "open" : ""}`}
+          onClick={() => {
+            setOpen(!open)
+            console.log("open", open)
+          }}
+        />
+      </div>
+      <div className={`nav-links ${open ? "open" : ""}`}>
         {links.map(link => (
           <Link key={link.name} to={link.link} activeClassName="active">
             {link.name}
