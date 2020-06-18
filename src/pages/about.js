@@ -22,17 +22,14 @@ export default () => {
   return (
     <Layout>
       <h1>About</h1>
-      <p>A few lists describing me and what I have done.</p>
       <h2>Likes</h2>
       <ul>
-        <li>Food</li>
-        <li>Coffee</li>
-        <li>Beer</li>
-        <li>Plants</li>
-        <li>Running</li>
-        <li>Climbing</li>
-        <li>Reading</li>
-        <li>Coding</li>
+        <li>Cooking and eating food</li>
+        <li>Drinking beer and coffee</li>
+        <li>Caring for plants</li>
+        <li>Running and climbing</li>
+        <li>Learning</li>
+        <li>Coding.. (Problemsolving)</li>
       </ul>
       <h2>Tools</h2>
       <ul>
@@ -41,11 +38,23 @@ export default () => {
       </ul>
       <h2>Experience</h2>
       <ul>
-        <li>Associate at Digital Edge (current)</li>
-        <li>Research Intern at Signality</li>
-        <li>Lead Software Engineer at Skira</li>
-        <li>Software Engineer at GOLI</li>
-        <li>Critical Incident Manager at Hewlett Packard</li>
+        <li>
+          Associate at <a href="https://digitaledge.se">Digital Edge</a>{" "}
+          (current)
+        </li>
+        <li>
+          Research Intern at <a href="https://signality.com">Signality</a>
+        </li>
+        <li>
+          Lead Software Engineer at <a href="https://skira.se">Skira</a>
+        </li>
+        <li>
+          Software Engineer at <a href="https://goli.nu">GOLI</a>
+        </li>
+        <li>
+          Critical Incident Manager at{" "}
+          <a href="https://hpe.com">Hewlett Packard Enterprise</a>
+        </li>
       </ul>
       <h2>Education</h2>
       <ul>

@@ -4,14 +4,15 @@ import Layout from "../layout"
 export default () => {
   return (
     <Layout>
-      <h1>Hi there <span role="img" aria-label="hand wave">👋</span></h1>
+      <h1>
+        Hi there{" "}
+        <span role="img" aria-label="hand wave">
+          👋
+        </span>
+      </h1>
       <p>
-        I am Per, a software engineer enthusiastic about user oriented web
-        applications and data science.
-      </p>
-      <p>
-        This website is a collection of my experiences and other things that I'd like
-        to list for my own sake and for sharing.
+        I'm Per, a software engineer enthusiastic about building scalable
+        user-oriented web applications and utilizing data with machine learning.
       </p>
     </Layout>
   )
