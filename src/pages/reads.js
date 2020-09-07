@@ -29,6 +29,10 @@ export default () => {
       name: "How to Write a Git Commit Message",
       link: "https://chris.beams.io/posts/git-commit/",
     },
+    {
+      name: "Less is More: Jumpstarting Productivity with Small Teams",
+      link: "https://stevemcconnell.com/articles/less-is-more-jumpstarting-productivity-with-small-teams/"
+    }
   ]
   return (
     <Layout>
