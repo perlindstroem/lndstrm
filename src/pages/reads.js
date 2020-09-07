@@ -5,6 +5,7 @@ export default () => {
   const books = [
     {
       name: "Tribal Leadership",
+      author: "Dave Logan and John King"
     },
     {
       name: "Getting Real",
@@ -12,15 +13,19 @@ export default () => {
     },
     {
       name: "Thinking, Fast and slow",
+      author: "Daniel Kahneman"
     },
     {
-      name: "Sapiens"
+      name: "Sapiens",
+      author: "Yuval Noah Harari"
     },
     {
-      name: "Hacking Growth"
+      name: "Hacking Growth",
+      author: "Morgan Brown and Sean Ellis"
     },
     {
-      name: "The Lean Startup"
+      name: "The Lean Startup",
+      author: "Eric Ries"
     }
   ]
 
@@ -42,8 +47,8 @@ export default () => {
       </p>
       <h2>Books</h2>
       <ul>
-        {books.map(({ name, link }) => (
-          <li key={name}>{link ? <a href={link}>{name}</a> : `${name}`}</li>
+        {books.map(({ name, link, author }) => (
+          <li key={name}>{link ? <a href={link}>{name}</a> : `${name}`} { author && `by ${author}`}</li>
         ))}
       </ul>
       <h2>Articles</h2>

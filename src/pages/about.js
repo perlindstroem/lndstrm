@@ -33,8 +33,9 @@ export default () => {
       </ul>
       <h2>Tools</h2>
       <ul>
-        <li>iTerm2 w/ zsh</li>
-        <li>VS Code</li>
+        <li>Terminal: iTerm2 w/ zsh</li>
+        <li>Editor: VS Code</li>
+        <li>Font: <a href="https://github.com/be5invis/Iosevka">Iosevka Extended</a></li>
       </ul>
       <h2>Experience</h2>
       <ul>
