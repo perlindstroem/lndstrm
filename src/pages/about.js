@@ -39,9 +39,12 @@ export default () => {
       </ul>
       <h2>Experience</h2>
       <ul>
-        <li>
-          Associate at <a href="https://digitaledge.se">Digital Edge</a>{" "}
+      <li>
+          CTO at <a href="https://mytilly.co">Tilly</a>{" "}
           (current)
+        </li>
+        <li>
+          Associate at <a href="https://digitaledge.se">Digital Edge</a>
         </li>
         <li>
           Research Intern at <a href="https://signality.com">Signality</a>
