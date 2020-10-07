@@ -26,10 +26,10 @@ export default () => {
       <ul>
         <li>Cooking and eating food</li>
         <li>Drinking beer and coffee</li>
-        <li>Caring for plants</li>
+        <li>Houseplants</li>
         <li>Running and climbing</li>
-        <li>Learning</li>
-        <li>Coding.. (Problemsolving)</li>
+        <li>Learning new things</li>
+        <li>Building awesome products</li>
       </ul>
       <h2>Tools</h2>
       <ul>
