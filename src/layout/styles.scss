@@ -44,6 +44,27 @@ html {
   height: 100%;
 }
 
+p,
+a,
+li {
+  letter-spacing: 0.06rem;
+  font-size: 1rem;
+  letter-spacing: .1em;
+}
+
+a {
+  color: #9f5f80;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #583d72;
+}
+
+li {
+  padding: 0.3rem 0;
+}
+
 #___gatsby,
 #gatsby-focus-wrapper {
   height: 100%;
@@ -170,6 +191,7 @@ html {
     padding: 8px 14px;
     margin: 10px;
     border-radius: 0.3rem;
+    letter-spacing: .12em;
 
     @media (max-width: 768px) {
       width: 80%;
@@ -190,11 +212,14 @@ html {
 
 .nav-title {
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  letter-spacing: .12em;
+}
 
-  @media (max-width: 768px) {
-    font-size: 0.9rem;
-  }
+.gradient-text {
+  background: -webkit-linear-gradient(left, #583d72, #9f5f80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1 {
@@ -214,17 +239,6 @@ h2 {
   @media (max-width: 768px) {
     font-size: 1.4rem;
   }
-}
-
-p,
-a,
-li {
-  letter-spacing: 0.06rem;
-  font-size: 1rem;
-}
-
-li {
-  padding: 0.3rem 0;
 }
 
 .footer {

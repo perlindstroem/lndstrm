@@ -5,7 +5,9 @@ export default () => {
   return (
     <Layout>
       <h1>
-        Hi there{" "}
+        <span className="gradient-text">
+          Hi there{" "}
+        </span>
         <span role="img" aria-label="hand wave">
           👋
         </span>

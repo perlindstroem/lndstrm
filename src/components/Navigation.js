@@ -21,9 +21,7 @@ export default () => {
 
   return (
     <div className="nav-bar">
-      <div className="nav-title">
-        <Link to="/">Per Lindström</Link>
-      </div>
+      <Link to="/" className="nav-title">Per Lindström</Link>
       <div className="nav-toggle">
         <div
           className={`nav-hamburger ${open ? "open" : ""}`}
