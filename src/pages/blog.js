@@ -30,14 +30,12 @@ export default () => {
   return (
     <Layout>
       <h1>Blog</h1>
-      {posts.map(({node: p}) => {
-        return (
+      {posts.map(({node: p}) => (
           <a href={`/blog/${p.frontmatter.slug}`}>
             <p>{`${p.frontmatter.title} - ${p.frontmatter.date}`}</p>
             <p><em>{p.excerpt}</em></p>
           </a>
-        )
-      })}
+        ))}
     </Layout>
   )
 }
