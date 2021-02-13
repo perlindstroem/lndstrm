@@ -14,7 +14,10 @@ export default () => {
       </h1>
       <p>
         I'm Per, a software engineer enthusiastic about building scalable
-        user-oriented web applications and utilizing data with machine learning.
+        user-oriented applications and using machine learning to gain insights from data.
+      </p>
+      <p>
+        Currently, my time is spent building tech at <a href="https://mytilly.co">Tilly</a>.
       </p>
     </Layout>
   )

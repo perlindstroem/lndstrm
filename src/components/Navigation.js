@@ -20,7 +20,7 @@ export default () => {
   ]
 
   return (
-    <div className="nav-bar">
+    <header className="nav-bar">
       <Link to="/" className="nav-title">Per Lindström</Link>
       <div className="nav-toggle">
         <div
@@ -31,13 +31,13 @@ export default () => {
           }}
         />
       </div>
-      <div className={`nav-links ${open ? "open" : ""}`}>
+      <nav className={`nav-links ${open ? "open" : ""}`}>
         {links.map(link => (
           <Link key={link.name} to={link.link} activeClassName="active">
             {link.name}
           </Link>
         ))}
-      </div>
-    </div>
+      </nav>
+    </header>
   )
 }

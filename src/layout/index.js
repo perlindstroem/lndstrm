@@ -34,7 +34,7 @@ export default ({ children }) => {
         <meta name="author" content="Per Lindström" />
       </Helmet>
       <Navigation />
-      <div className="content">{children}</div>
+      <main className="content">{children}</main>
       <Footer />
     </div>
   )
