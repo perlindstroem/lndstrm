@@ -31,9 +31,9 @@ export default () => {
     <Layout>
       <h1>Blog</h1>
       {posts.map(({node: p}) => (
-          <a href={`/blog/${p.frontmatter.slug}`}>
-            <p>{`${p.frontmatter.title} - ${p.frontmatter.date}`}</p>
-            <p><em>{p.excerpt}</em></p>
+          <a href={p.frontmatter.slug} className="blog-card">
+            <p className="blog-card-title">{`${p.frontmatter.title} - ${p.frontmatter.date}`}</p>
+            <p className="blog-card-description">{p.excerpt}</p>
           </a>
         ))}
     </Layout>

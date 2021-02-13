@@ -7,6 +7,8 @@
   --secondary-popp: #ff8e71;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 400;
@@ -56,9 +58,10 @@ html {
 p,
 a,
 li {
-  letter-spacing: 0.06rem;
+  font-family: 'Montserrat';
+  letter-spacing: 0.05rem;
   font-size: 1rem;
-  letter-spacing: .1em;
+  font-weight: 300;
 }
 
 a {
@@ -66,12 +69,13 @@ a {
   text-underline-offset: 1px;
   text-decoration-color: var(--secondary-popp);
   text-decoration-thickness: 2px;
-  // text-decoration: none;
+  font-weight: 400;
 }
 
 a:hover {
   color: var(--primary-accent);
-  transition: color 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-decoration-thickness: 4px;
 }
 
 li {
@@ -87,7 +91,7 @@ li {
   display: flex;
   flex-direction: column;
   max-width: 768px;
-  padding: 0 25px;
+  padding: 0 22px;
   margin: 0 auto;
   height: 100%;
 }
@@ -205,7 +209,8 @@ li {
     margin: 10px;
     border-radius: 0.3rem;
     letter-spacing: .12em;
-    font-weight: 500;
+    font-weight: 600;
+    color: #444;
 
     @media (max-width: 768px) {
       width: 80%;
@@ -215,33 +220,30 @@ li {
   }
 
   a:hover {
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, .03);
     box-shadow: 0 0 10px #ccc;
-    color: var(--secondary-accent);
-    font-weight: 800;
+    color: #000000;
+    // color: var(--secondary-accent);
     transition: box-shadow 0.3s ease-in-out;
   }
 
   .active {
-    background-color: #efefef;
+    background-color: rgba(0, 0, 0, .03);
+    font-weight: 800;
   }
 }
 
 .nav-title {
+  font-family:'Space Grotesk';
   font-weight: 800 !important;
   font-size: 1.2rem;
   letter-spacing: .12em;
 }
 
-.gradient-text {
-  background: -webkit-linear-gradient(left, #583d72, #9f5f80);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 h1 {
   font-size: 2.2rem;
   letter-spacing: 0.08rem;
+  font-weight: 600;
 
   @media (max-width: 768px) {
     font-size: 1.8rem;
@@ -252,6 +254,7 @@ h2 {
   font-size: 1.6rem;
   letter-spacing: 0.08rem;
   padding: 0.5rem 0;
+  font-weight: 500;
 
   @media (max-width: 768px) {
     font-size: 1.4rem;
@@ -275,4 +278,28 @@ h2 {
 
 .social:hover {
   color: var(--secondary-popp)
+}
+
+.blog-card {
+  box-shadow: 0 0 10px #eee;
+  display: block;
+  padding: 7px 20px;
+  border-radius: 12px;
+  text-decoration: none !important;
+  margin-bottom: 28px;
+}
+
+.blog-card:hover {
+  box-shadow: 0 0 15px #ccc;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog-card-title {
+  color: var(--black);
+  font-weight: 500;
+}
+
+.blog-card-description {
+  color: var(--black);
+  font-weight: 300;
 }
